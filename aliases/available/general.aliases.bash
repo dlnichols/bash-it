@@ -5,8 +5,8 @@ about-alias 'general aliases'
 alias sl=ls
 alias ls='ls -G'        # Compact view, show colors
 alias la='ls -AF'       # Compact view, show hidden
-alias ll='ls -al'
-alias l='ls -a'
+alias ll='ls -alFh'
+alias l='ls -AFh'
 alias l1='ls -1'
 
 alias _="sudo"
@@ -35,7 +35,6 @@ alias irc="$IRC_CLIENT"
 alias rb='ruby'
 
 # Pianobar can be found here: http://github.com/PromyLOPh/pianobar/
-
 alias piano='pianobar'
 
 alias ..='cd ..'         # Go up one directory
@@ -53,5 +52,5 @@ then
 fi
 
 # Directory
-alias	md='mkdir -p'
-alias	rd='rmdir'
+alias md='mkdir -p'
+alias rd='rmdir'
