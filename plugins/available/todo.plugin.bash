@@ -3,7 +3,7 @@
 # you may override any of the exported variables below in your .bash_profile
 
 if [ -z "$TODO_DIR" ]; then
-    export TODO_DIR=$BASH_IT/custom  # store todo items in user's custom dir, ignored by git
+    export TODO_DIR="$HOME/Ubuntu One/To Do"  # store todo items in user's custom dir, ignored by git
 fi
 if [ -z "$TODOTXT_DEFAULT_ACTION" ]; then
     export TODOTXT_DEFAULT_ACTION=ls       # typing 't' by itself will list current todos
